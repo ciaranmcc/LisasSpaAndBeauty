@@ -8,7 +8,8 @@ $(function () {
 
     //add bootstrap scrollspy
     $('body').scrollspy({
-        target: '.navbar'
+        target: '.navbar',
+        offset: 65
     });
 
 

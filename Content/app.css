@@ -33,7 +33,7 @@ p {
     opacity: 0.2;*/
 
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-        url('/Images/Calm.jpg');
+        url('Images/Calm.jpg');
     background-size: cover;
     background-position: center;
 }

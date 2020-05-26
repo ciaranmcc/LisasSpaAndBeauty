@@ -1,0 +1,157 @@
+﻿body {
+    position: relative;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    transition: all 0.5s;
+}
+
+.navbar-brand img {
+    padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #777;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0.9;
+}
+
+.fill-screen {
+    /*background-size: cover;
+    background-position: center;
+    opacity: 0.2;*/
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+        url('/Images/Calm.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.title-image {
+    position: absolute;
+    padding: 20px;
+    top: 6%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.down-button {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i {
+    color: white;
+}
+
+
+header, footer {
+    background-color: #222;
+    color: #777;
+    text-align: center;
+}
+
+.text-banner,
+.product-section,
+.treatment-section {
+    padding: 0px 20px 30px 20px;
+    background-color: #fffafa;
+}
+
+.text-banner p {
+    font-size: 20px;
+}
+
+.text-banner h1 {
+    text-align: center;
+}
+
+#wellness {
+    width: 5%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+@media(max-width: 1024px)
+{
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+}
+
+.product-section {
+    padding: 5px;
+}
+
+.product-element img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-element h2 {
+    text-align: center;
+}
+
+.product-element p {
+    padding: 15px;
+}
+
+.product-element h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.treatment-section {
+    padding: 5px;
+}
+
+.treatment-element img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treatment-element h2 {
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+    width: auto;
+    padding: 15px;
+}
+
+.contact-us img {
+    padding-top: 50px;
+}
